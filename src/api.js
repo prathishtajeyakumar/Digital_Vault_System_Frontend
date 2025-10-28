@@ -6,7 +6,7 @@ const getApiBaseUrl = () => {
   if (hostname.includes('premiumproject.examly.io')) {
     return `https://8080-${hostname.split('-').slice(1).join('-')}/api/documents`;
   }
-  return 'http://localhost:8080/api/documents';
+  return 'https://digital-vault-system-backend.onrender.com/api/documents';
 };
 
 const API_BASE_URL = getApiBaseUrl();
