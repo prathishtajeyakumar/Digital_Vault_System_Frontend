@@ -1,0 +1,12 @@
+
+> reactapp@0.1.0 start /home/coder/project/workspace/reactapp
+> BROWSER=none PORT=8081 react-scripts start --disable-host-check --host 0.0.0.0
+
+Something is already running on port 8081.
+
+┌─────────────────────────────────────────────────────────┐
+│                 npm update check failed                 │
+│           Try running with sudo or get access           │
+│          to the local update config store via           │
+│ sudo chown -R $USER:$(id -gn $USER) /home/coder/.config │
+└─────────────────────────────────────────────────────────┘
